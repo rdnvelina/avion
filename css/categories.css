@@ -1,0 +1,379 @@
+@import url("https://api.fontshare.com/v2/css?f[]=satoshi@400&display=swap");
+@font-face {
+  font-family: "Satoshi";
+  src: url("//cdn.fontshare.com/wf/TTX2Z3BF3P6Y5BQT3IV2VNOK6FL22KUT/7QYRJOI3JIMYHGY6CH7SOIFRQLZOLNJ6/KFIAZD4RUMEZIYV6FQ3T3GP5PDBDB6JY.woff2") format("woff2"), url("//cdn.fontshare.com/wf/TTX2Z3BF3P6Y5BQT3IV2VNOK6FL22KUT/7QYRJOI3JIMYHGY6CH7SOIFRQLZOLNJ6/KFIAZD4RUMEZIYV6FQ3T3GP5PDBDB6JY.woff") format("woff"), url("//cdn.fontshare.com/wf/TTX2Z3BF3P6Y5BQT3IV2VNOK6FL22KUT/7QYRJOI3JIMYHGY6CH7SOIFRQLZOLNJ6/KFIAZD4RUMEZIYV6FQ3T3GP5PDBDB6JY.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  line-height: 1.3;
+  font-family: "Satoshi";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: #2A254B;
+}
+
+.container {
+  padding-left: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.button {
+  position: absolute;
+  width: 170px;
+  height: 56px;
+  left: 43%;
+  top: 538px;
+  background: #F9F9F9;
+  padding: 16px 32px;
+  border: none;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2A254B;
+  cursor: pointer;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+.button:hover {
+  border: none;
+  background-color: #2A254B;
+  padding: 16px 32px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.header {
+  height: 132px;
+}
+.header-wrapper {
+  padding: 20px 28px;
+}
+.header-top {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 40px;
+}
+.header-top::after {
+  content: "";
+  position: absolute;
+  height: 0px;
+  left: 1.94%;
+  right: 1.81%;
+  top: 70px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.header-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 44px;
+  padding: 20px 0;
+}
+.header-title {
+  line-height: 29.52px;
+  color: #22202E;
+  font-weight: 600;
+}
+.header-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+}
+.header-shopping_link {
+  right: 16px;
+}
+.header-bottom_link {
+  line-height: 21.6px;
+  font-size: 16px;
+  color: #726E8D;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+.header-bottom_link:hover {
+  font-size: 18px;
+  color: #000000;
+  -webkit-text-decoration: underline 3px #000000;
+          text-decoration: underline 3px #000000;
+}
+
+.collection {
+  display: inline-block;
+  background: #fff;
+  margin: 10px 20px 100px 20px;
+}
+.collection_title {
+  font-weight: 400;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 400;
+  margin-bottom: 36px;
+}
+.collection-items {
+  margin-top: 48px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 305px 16px 305px 16px 305px 16px 305px;
+  grid-template-columns: 305px 305px 305px 305px;
+  -ms-grid-rows: 462px 16px 462px 16px 462px;
+  grid-template-rows: 462px 462px 462px;
+  gap: 16px;
+}
+.collection-items > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+.collection-items > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+.collection-items > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+}
+.collection-items > *:nth-child(4) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 7;
+}
+.collection-items > *:nth-child(5) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
+.collection-items > *:nth-child(6) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+}
+.collection-items > *:nth-child(7) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 5;
+}
+.collection-items > *:nth-child(8) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 7;
+}
+.collection-items > *:nth-child(9) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+}
+.collection-items > *:nth-child(10) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 3;
+}
+.collection-items > *:nth-child(11) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 5;
+}
+.collection-items > *:nth-child(12) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 7;
+}
+.collection-item_link {
+  text-decoration: none;
+  color: #2A254B;
+}
+.collection-item_title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  margin-bottom: 13px;
+}
+.collection-item_text {
+  max-width: 209px;
+  font-size: 18px;
+  letter-spacing: 0.36px;
+}
+.collection-item_img {
+  margin-bottom: 24px;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+.collection-item_img:hover {
+  -webkit-transform: translate3d(-10px, -10px, 0);
+          transform: translate3d(-10px, -10px, 0);
+}
+
+.footer {
+  width: 100%;
+  height: 383px;
+  background: #2A254B;
+  color: #fff;
+}
+.footer-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 100px;
+  padding-top: 58px;
+  padding-left: 80px;
+}
+.footer-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 12px;
+}
+.footer-menu_title {
+  font-size: 16px;
+}
+.footer-menu_text {
+  font-size: 14px;
+}
+.footer-categories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 12px;
+}
+.footer-categories_title {
+  font-size: 16px;
+}
+.footer-categories_link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+.footer-company {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 12px;
+}
+.footer-company_title {
+  font-size: 16px;
+}
+.footer-company_text {
+  font-size: 14px;
+}
+.footer-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 12px;
+}
+.footer-input_title {
+  font-size: 16px;
+}
+.footer-input_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer-input_email {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  width: 509px;
+  height: 56px;
+  font-family: "Satoshi";
+  padding: 17px 360px 17px 32px;
+  border: none;
+  font-size: 16px;
+  line-height: 22px;
+}
+.footer-input_butt {
+  border: none;
+  background-color: #fff;
+  padding: 16px 32px;
+  color: #2A254B;
+  font-size: 16px;
+  line-height: 150%;
+  cursor: pointer;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+.footer-input_butt:hover {
+  border: 2px solid #fff;
+  background-color: #2A254B;
+  padding: 14px 32px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 150%;
+}
+.footer-bottom {
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 72px 40px 25px 90px;
+  max-width: 1440px;
+}
+.footer-bottom_title {
+  font-size: 14px;
+}
+.footer-bottom_links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 24px;
+}
+.footer-bottom::before {
+  content: "";
+  position: absolute;
+  height: 0px;
+  left: 90px;
+  right: 40px;
+  top: 48px;
+  border: 1px solid #4E4D93;
+  max-width: 1400px;
+}

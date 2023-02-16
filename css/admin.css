@@ -1,0 +1,29 @@
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+input, textarea {
+  padding: 8px;
+  margin: 15px 0;
+  font-size: 16px;
+}
+
+button {
+  letter-spacing: 1px;
+  margin: 15px auto;
+  width: 200px;
+  border: none;
+  background-color: #2A254B;
+  padding: 16px 30px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}

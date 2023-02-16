@@ -1,0 +1,26 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+input, textarea {
+    padding: 8px;
+    margin: 15px 0;
+    font-size: 16px;
+}
+
+button {
+    letter-spacing: 1px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    border: none;
+    background-color: $darkblue;
+    padding: 16px 30px;
+    color: $darkblue;
+    font-size: 16px;
+    cursor: pointer;
+}
